@@ -12,7 +12,7 @@ const pool = new Pool({
 });
 
 // Bored API base URL
-const BORED_API_BASE_URL = 'https://www.boredapi.com/api/';
+const BORED_API_BASE_URL = 'postgresql://activities_user:96PfXDoRIFDrW6qqIAVHpocc7IAPiwRT@dpg-cpq98shu0jms738rubhg-a/activity_database_2e3u';
 
 async function getRandomActivity() {
   try {
